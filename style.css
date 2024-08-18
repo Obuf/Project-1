@@ -1,0 +1,55 @@
+.main {
+  padding: 700px;
+  background: linear-gradient(320deg, yellow, blue, pink);
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+}
+
+.ki-r {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 16px;
+  backdrop-filter: blur(4px);
+  background-color: rgba(255, 255, 255, 0.4);
+  padding: 100px;
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.3);
+  color: white;
+  text-align: center;
+}
+
+.div {
+  margin: 0px 8px 5px;
+  display: inline-block;
+  color: black;
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 20px;
+  transition: 0.2s ease;
+  cursor: pointer;
+  margin-top: 5px;
+}
+.div:hover {
+  color: white;
+  background-color: brown;
+  transform: scale(1.09999999);
+}
+.div:active {
+  transition: 0s;
+  background-color: orange;
+}
+
+.value {
+  font-size: 30px;
+  color: black;
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 7px;
+  margin-top: 10px;
+}
